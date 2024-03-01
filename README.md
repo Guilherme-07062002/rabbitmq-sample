@@ -1,13 +1,13 @@
-# Socket.io Sample
+# RabbitMQ Sample
 
-This is a sample project to demonstrate how to use Socket.io with Express and TypeScript.
+This is a sample project to demonstrate how to use RabbitMQ with Express and TypeScript.
 
 ## How to run
 
 Clone the repository
 
 ```bash
-git clone https://github.com/Guilherme-07062002/socket.io-sample.git
+git clone https://github.com/Guilherme-07062002/rabbitmq-sample.git
 ```
 
 Install the dependencies
@@ -22,4 +22,10 @@ Run the server
 npm run dev
 ```
 
-After that, open your browser and go to `http://localhost:3000`
+## How to use
+
+'Up' the docker container
+
+```bash
+docker-compose up -d
+```
