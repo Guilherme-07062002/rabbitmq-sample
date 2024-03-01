@@ -8,7 +8,7 @@ RabbitMQ is a messaging software that enables communication between different ap
 
 Asynchronous processes are commonly used in situations where an immediate response is not necessary for the user.
 
-In the example of this code, the sendMessage() function is sending a message to a queue, allowing it to be processed asynchronously in the background.
+In the example of this code, the `sendMessage()` function is sending a message to a queue, allowing it to be processed asynchronously in the background.
 
 This approach is useful for operations that may take some time to complete, such as image processing, sending emails, communicating with external services, etc.
 
